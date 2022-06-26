@@ -18,7 +18,7 @@ public class LoginTestCase {
 	
 	public void LoginTest() throws MalformedURLException
 	{
-		String url = "http://192.168.30.120:4444/wd/hub";
+		String url = "http://192.168.50.101:4444/wd/hub";
 		
 		DesiredCapabilities caps = DesiredCapabilities.chrome();
 		caps.setBrowserName("chrome");
