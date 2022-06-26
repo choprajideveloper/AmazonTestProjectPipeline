@@ -19,7 +19,7 @@ public class Demo1 {
 	public void Testcase1() throws MalformedURLException 
 	{
 		
-		String URL = "http://192.168.56.1:4444/wd/hub";
+		String URL = "http://192.168.50.101:4444/wd/hub";
 		
 		//Create an object for Desiredcapabilities and pass it based on your browser
 		DesiredCapabilities capability = DesiredCapabilities.chrome();
