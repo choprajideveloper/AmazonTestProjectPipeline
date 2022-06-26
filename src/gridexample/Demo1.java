@@ -29,7 +29,7 @@ public class Demo1 {
 
 		//We need to pass the remote driver details with the hub url and the node capabilities 
 		driver = new RemoteWebDriver(new URL(URL),capability);
-		System.setProperty("webdriver.chrome.driver", "./BrowserUtils/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./Browser/chromedriver.exe");
 		
 		driver.get("http://automationpractice.com/index.php");
 		
